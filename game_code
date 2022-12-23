@@ -1,0 +1,28 @@
+import turtle
+import time
+import random
+
+# Default Values
+score = 0
+high_score = 0
+delay = 0.1 #I believe this is for game speed?
+
+# Creating a window screen
+wn = turtle.Screen()
+wn.title("Snek Game")
+wn.bgcolor("dark green")
+
+# the width and height can be put as user's choice
+wn.setup(width=900, height=700)
+wn.tracer(0)
+
+# head of the snake
+head = turtle.Turtle()
+head.shape("circle")
+head.color("black")
+head.penup()
+head.goto(0, 0)
+head.direction = "Stop"
+
+wn.mainloop()
+
