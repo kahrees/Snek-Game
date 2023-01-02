@@ -5,7 +5,7 @@ import random
 # Default Values
 score = 0
 high_score = 0
-delay = 0.1 #I believe this is for game speed?
+delay = 0.2 #For game speed. Harder the Level, Smaller the Delay
 
 # Creating a window screen
 wn = turtle.Screen()
